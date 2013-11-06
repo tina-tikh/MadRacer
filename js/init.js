@@ -21,6 +21,9 @@ epam.madracer = {
         controller.scale(this.metadata.world.initState.scale);
 
         this.preload(function () {
+            var processing = document.querySelector('#processing');
+            processing.style.display = 'none';
+            game.style.display = 'block';
             controller.start();
         });
     },

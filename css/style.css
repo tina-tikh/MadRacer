@@ -9,6 +9,12 @@ html, body, #game {
     overflow: hidden;
 }
 
+#processing {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
 /* dialog box */
 #dialog {
     position: absolute;
@@ -87,6 +93,12 @@ html, body, #game {
     border: 1px solid #fff;
     background: rgba(256, 256, 256, 0.5);
 }
+.loading {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url('../img/process.gif') no-repeat;
+}
 
 [class^="icon-"], [class*=" icon-"] {
     display: inline-block;
@@ -96,6 +108,7 @@ html, body, #game {
     text-indent: -9999px;
     background-repeat: no-repeat;
 }
+
 
 .icon-settings {
     background-image: url('../img/settings-icon.png');
