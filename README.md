@@ -19,7 +19,7 @@ Short list of features:
 
 •	Animated targets;
 
-•	A lot of cars to choose;
+•	A lot of cars to choose for racer;
 
 •	Configurable world from js metadata;
 
