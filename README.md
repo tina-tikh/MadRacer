@@ -2,8 +2,12 @@ MadRacer
 ========
 
 Zombies flooded the city and your mission is to save the world! You have to kill all the evil creatures, but it’s not that easy to do… 
+
 The zombie-racer has something in mind for you…
+
 And let the madness begin… 
+
+
 
 Short list of features:
 
