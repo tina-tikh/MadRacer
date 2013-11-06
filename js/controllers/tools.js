@@ -4,8 +4,8 @@
  * Controller for managing actions
  * not related to the game itself
  */
-epam.madracer.toolsController = ( function() {
-	var _engine;
+epam.madracer.toolsController = (function () {
+    var _engine;
     var _node;
 
     var _regions = {};
@@ -102,10 +102,10 @@ epam.madracer.toolsController = ( function() {
      * Sounds actions
      */
 
-    var _playMusic = function() {
+    var _playMusic = function () {
         var music = _regions.music.querySelector('audio');
         music.loop = true;
-        music.volume = 0.05; 
+        music.volume = 0.05;
         music.muted = false;
         music.play();
     };
@@ -120,9 +120,9 @@ epam.madracer.toolsController = ( function() {
         });
     };
 
-	return {
-		init: function (engine, node) {
-			_engine = engine;
+    return {
+        init: function (engine, node) {
+            _engine = engine;
             _node = node;
 
             _initRegions();
@@ -132,8 +132,8 @@ epam.madracer.toolsController = ( function() {
             _playMusic();
             if (!(localStorage && localStorage['racerModel']))
                 _openMenu();
-		}
-	}
-} )();
+        }
+    }
+})();
 
 

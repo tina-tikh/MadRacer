@@ -12,57 +12,57 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu,nav, section , summery{
-    display:block;
-	}
+footer, header, hgroup, menu, nav, section, summery {
+    display: block;
+}
 
 a img {
-	border: none;
-	}
+    border: none;
+}
 
 a:link, a:visited, a:hover, a:active, a:focus, label {
-	text-decoration: none;	
-	cursor: pointer;
-	}
+    text-decoration: none;
+    cursor: pointer;
+}
 
 ul, ol {
-	list-style:none;
-	}	
+    list-style: none;
+}
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	}	
-	
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 tr, td, th {
-	vertical-align: middle;
-	} 	
-	
+    vertical-align: middle;
+}
+
 input, select, textaria {
-	margin:0;
-	padding: 0;		
-	background: #fff;
-	cursor: pointer;
-	font: normal 12px Arial, Tahoma, sans;
-	}	
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    cursor: pointer;
+    font: normal 12px Arial, Tahoma, sans;
+}
 
 select {
-	height: 20px;	
-	}
-	
+    height: 20px;
+}
+
 :focus {
-	outline: 0;
-	}	
+    outline: 0;
+}
 	
 	
 	

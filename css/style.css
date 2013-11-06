@@ -1,24 +1,4 @@
-﻿[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-    text-indent: -9999px;
-    background-repeat: no-repeat;
-}
-.icon-settings {
-    background-image: url('../img/settings-icon.png');
-    background-size: 32px;
-}
-.icon-sounds {
-    background-image: url('../img/sounds-sprite.png');
-    background-size: 64px 32px;
-}
-.off .icon-sounds {
-    background-position: -32px 0;
-}
-
-html {
+﻿html {
     background: #333;
 }
 
@@ -29,40 +9,18 @@ html, body, #game {
     overflow: hidden;
 }
 
-.panel {
-    padding: 5px;
-    border: 1px solid #fff;
-    background: rgba(256, 256, 256, 0.5);
-}
-#toolbar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 0;
-}
-#toolbar li {
-    display: inline-block;
-    padding: 5px;
-}
-#toolbar li + li {
-    border-left: 1px solid #fff;
-}
-
-#info {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
+/* dialog box */
 #dialog {
     position: absolute;
     top: 0;
     z-index: 200;
     width: 100%;
 }
+
 #dialog h3 {
     margin: 10px 0;
 }
+
 #dialog .dialog-content {
     box-sizing: border-box;
     max-width: 900px;
@@ -86,9 +44,11 @@ html, body, #game {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+
 #dialog .dialog-content li {
     display: inline-block;
 }
+
 #dialog.open .dialog-content {
     opacity: 1;
 
@@ -96,4 +56,57 @@ html, body, #game {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
+}
+
+/* panels */
+#toolbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+
+#toolbar li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#toolbar li + li {
+    border-left: 1px solid #fff;
+}
+
+#info {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* General styles */
+.panel {
+    padding: 5px;
+    border: 1px solid #fff;
+    background: rgba(256, 256, 256, 0.5);
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+}
+
+.icon-settings {
+    background-image: url('../img/settings-icon.png');
+    background-size: 32px;
+}
+
+.icon-sounds {
+    background-image: url('../img/sounds-sprite.png');
+    background-size: 64px 32px;
+}
+
+.off .icon-sounds {
+    background-position: -32px 0;
 }

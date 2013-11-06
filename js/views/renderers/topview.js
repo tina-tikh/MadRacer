@@ -230,6 +230,7 @@
         this.x = x || 0;
         this.y = y || 0;
     }
+
     Point.prototype.toAbsolute = function (scale) {
         return new Point(this.x * scale,
             this.y * scale);
