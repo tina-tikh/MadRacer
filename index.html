@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>MadRacer</title>
+    <script src="js/libs/math.binaryHeap.js"></script>
+    <script src="js/libs/math.astar-custom.js"></script>
+
+    <script src="js/init.js"></script>
+    <script src="js/utils/helpers.js"></script>
+    <script src="js/utils/preloader.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/engine.collider.js"></script>
+    <script src="js/engine.enemy.js"></script>
+    <script src="js/models/metadata.js"></script>
+    <script src="js/entities.js"></script>
+    <script src="js/views/main.js"></script>
+    <script src="js/views/dialog.js"></script>
+    <script src="js/views/renderers/topview.js"></script>
+    <script src="js/views/renderers/topview.modules.js"></script>
+    <script src="js/views/surfaces/canvas.js"></script>
+    <script src="js/controllers/main.js"></script>
+    <script src="js/controllers/tools.js"></script>
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/progress.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="game">
+        <div id="progress" class="waiting">
+            <dt></dt>
+            <dd></dd>           
+        </div>
+        <div id="music" class="">
+            <audio>
+                <source src="sounds/horror.ogg">
+                <source src="sounds/horror.mp3">
+            </audio>
+            <ul>
+                <li><i class="icon"></i></li>
+            </ul>
+        </div>
+        <div id="toolbar" class="panel">
+            <ul>
+                <li class="menu"><i class="icon-settings">Settings</i></li>
+                <li class="sounds"><i class="icon-sounds">Settings</i></li>
+            </ul>
+        </div>
+        <div id="info" class="panel">
+            <ul>
+                <li class="score">Score: <b class="val">--</b> out of <b class="max">--</b></li>
+            </ul>
+        </div>
+		<canvas id="canvas">Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element </canvas>
+	</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* ................... C S S   R E S E T ................... */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu,nav, section , summery{
+    display:block;
+	}
+
+a img {
+	border: none;
+	}
+
+a:link, a:visited, a:hover, a:active, a:focus, label {
+	text-decoration: none;	
+	cursor: pointer;
+	}
+
+ul, ol {
+	list-style:none;
+	}	
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}	
+	
+tr, td, th {
+	vertical-align: middle;
+	} 	
+	
+input, select, textaria {
+	margin:0;
+	padding: 0;		
+	background: #fff;
+	cursor: pointer;
+	font: normal 12px Arial, Tahoma, sans;
+	}	
+
+select {
+	height: 20px;	
+	}
+	
+:focus {
+	outline: 0;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
