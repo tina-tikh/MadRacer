@@ -16,15 +16,15 @@ epam.madracer = {
         view.init(canvas, renderer);
         engine.init(step, this.metadata.world.initState);
 
-
+        var initScale = this.metadata.world.initState.scale;
         this.preload(function () {
             var processing = document.querySelector('#processing');
             processing.style.display = 'none';
             game.style.display = 'block';
-            
+
             toolsController.init(engine, game);
             controller.init(engine, view, step);
-            controller.scale(this.metadata.world.initState.scale);
+            controller.scale(initScale);
             controller.start();
         });
     },
